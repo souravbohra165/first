@@ -1,0 +1,186 @@
+
+<html>
+<head>
+<title>TECHNO INDIA SALTLAKE</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
+<script type="text/javascript" src="layout/scripts/jquery.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.slidepanel.setup.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.ui.min.js"></script>
+<script type="text/javascript" src="layout/scripts/jquery.tabs.setup.js"></script>
+</head>
+<body>
+<div class="wrapper col0">
+  <div id="topbar">
+    <div id="slidepanel">
+      
+      <div class="topbox">
+        <h2>Teachers Login</h2>
+        <form action="signin.php" method="post">
+          <fieldset>
+            <legend>Teachers Login Form</legend>
+            <label for="teachername">Email:
+              <input type="text" name="user" id="user" value="" />
+            </label>
+            <label for="teacherpass">Password:
+              <input type="password" name="pass" id="pass" value="" />
+            </label>
+            <label for="teacherremember">
+              <input class="checkbox" type="checkbox" name="teacherremember" id="teacherremember" checked="checked" />
+              Remember me</label>
+            <p>
+              <input type="submit" name="submit" id="button" value="Login" />
+              &nbsp;
+              
+			  <input type="button" onclick="window.location.href='signup2.htm'" value="Register">
+            </p>
+          </fieldset>
+        </form>
+      </div>
+      <div class="topbox last">
+        <h2>Students Login</h2>
+        <form action="signin.php" method="post">
+          <fieldset>
+            <legend>Pupils Login Form</legend>
+            <label for="pupilname">Username:
+              <input type="text" name="user" />
+            </label>
+            <label for="pupilpass">Password:
+              <input type="password" name="pass" />
+            </label>
+            <label for="pupilremember">
+              <input class="checkbox" type="checkbox" name="pupilremember" id="pupilremember" checked="checked" />
+              Remember me</label>
+            <p>
+              <input type="submit" name="submit" id="button" value="Login" />
+              &nbsp;
+              
+			  <Input type="button" onclick="window.location.href='signup2.htm'" value=Register>
+            </p>
+          </fieldset>
+        </form>
+      </div>
+      <br class="clear" />
+    </div>
+    <div id="loginpanel">
+      <ul>
+        <li class="left">Log In Here &raquo;</li>
+        <li class="right" id="toggle"><a id="slideit" href="#slidepanel">Registration</a><a id="closeit" style="display: none;" href="#slidepanel">Close Panel</a></li>
+      </ul>
+    </div>
+    <br class="clear" />
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col1">
+  <div id="header">
+    <div id="logo">
+      <h1><a href="index.html"><b>Techno India</b> Saltlake</a></h1>
+    </div>
+    <div class="fl_right">
+      <ul>
+        <li class="last"><a href="#">Search</a></li>
+        <li><a href="#">Online Support</a></li>
+        <li><a href="#">School Board</a></li>
+      </ul>
+      <p>Tel: 033 - 3344556932 | Mail: info@cambridge.com</p>
+    </div>
+    <br class="clear" />
+<div class="hdr-rgt">
+        	<!--<marquee direction="left" scrollamount="3" onmouseover="this.stop()" onmouseout="this.start()">FOR ADMISSION RELATED QUERIES PLEASE CALL US AT 9836544416/17/18/19</marquee>-->
+         <div class="full-scroll">
+        	<marquee direction="left" scrollamount="5" onmouseover="this.stop()" onmouseout="this.start()"><b>FOR ADMISSION RELATED QUERIES PLEASE CALL US AT 9836544416/17/18/19</b></marquee>
+        </div>
+  </div>
+</div>
+
+<!-- ####################################################################################################### -->
+<div class="wrapper col2">
+  <div id="topnav">
+    <ul>
+      <li class="active"><a href="index.html">Home</a>
+        <ul>
+          <li><a href="pages/admission.html">Admission Process</a></li>
+          <li><a href="pages/library.html">Library Facilities</a></li>
+          <li><a href="pages/infrastructure.html">Infrastructure</a></li>
+          <li class="last"><a href="pages/courses.html">Courses Available</a></li>
+        </ul>
+      </li>
+      <li><a href="pages/style-demo.html">Campus Life</a>
+        <ul>
+         <li><a href="#">Placement Cell</a></li>
+          <li><a href="http://www.tict.edu.in/">Sports</a></li>
+          <li class="last"><a href="#">Society And Associations</a></li>
+		</ul>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col3">
+  <div id="featured_slide">
+    <div id="featured_wrap">
+      <ul id="featured_tabs">
+        <li><a href="#fc1">Admission Process<br />
+          <span>Click To Proceed For Admissions</span></a></li>
+        <li><a href="#fc2">Library Facilities<br />
+          <span>Check in to view Library Facilities</span></a></li>
+        <li><a href="#fc3">Infrastructure<br />
+          <span>High In Class Infrastructure</span></a></li>
+        <li class="last"><a href="#fc4">Courses Available<br />
+          <span>Quality Education with International Accredated Courses</span></a></li>
+      </ul>
+      <div id="featured_content">
+        <div class="featured_box" id="fc1"><img src="images/demo/1.gif" alt="" />
+          <div class="floater"><a href="pages/admission.html">Continue Reading &raquo;</a></div>
+        </div>
+        <div class="featured_box" id="fc2"><img src="images/demo/2.gif" alt="" />
+          <div class="floater"><a href="pages/library.html">Continue Reading &raquo;</a></div>
+        </div>
+        <div class="featured_box" id="fc3"><img src="images/demo/3.gif" alt="" />
+          <div class="floater"><a href="pages/infrastructure.html">Continue Reading &raquo;</a></div>
+        </div>
+        <div class="featured_box" id="fc4"><img src="images/demo/4.gif" alt="" />
+          <div class="floater"><a href="pages/courses.html">Continue Reading &raquo;</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ####################################################################################################### -->
+<div class="wrapper col4">
+  <div id="container">
+    <div id="hpage">
+      <ul>
+        <li>
+          <h2>Mechanical Engineering</h2>
+          <div class="imgholder"><a href="#"><img src="images/demo/200x1401.gif" alt="" /></a></div>
+          <p>This is a W3C standards compliant free website template from <a href="http://www.os-templates.com/">OS Templates</a>. For more CSS templates visit <a href="http://www.os-templates.com/">Free Website Templates</a>. Etmetus conse cte tuer leo nisl justo sed vest vitae nunc massa scelerit</p>
+          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+        </li>
+        <li>
+          <h2>Computer Science Engg.</h2>
+          <div class="imgholder"><a href="#"><img src="images/demo/200x1402.gif" alt="" /></a></div>
+          <p><br>This template is distributed using a <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>, which allows you to use and modify the template for both personal and commercial use when you keep the provided credit links in the footer.</p>
+          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+        </li>
+        <li>
+          <h2>Electrical Engineering</h2>
+          <div class="imgholder"><a href="#"><img src="images/demo/200x1403.gif" alt="" /></a></div>
+          <p><br>Seddui vestibulum vest mi liberos estibulum urna at eget amet sed. Etmetus consectetuer leo nisl justo sed vest vitae nunc massa scelerit. Namaucibulum lor ligula nullam risque et ristie sollis sapien nulla neque.</p>
+          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+        </li>
+        <li class="last">
+          <h2>Electronics Engineering</h2>
+          <div class="imgholder"><a href="#"><img src="images/demo/200x1404.gif" alt="" /></a></div>
+          <p>Nullamlacus dui ipsum conseque loborttis non euisque morbi pen as dapibulum orna. Urna ultrices quis curabitur phasellentesque congue magnis vestibulum. Orcieleifendimentum risuspenatoque massa nunc.</p>
+          <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+        </li>
+      </ul>
+      <br class="clear" />
+    </div>
+  </div>
+</div>
+</body>
+</html>
